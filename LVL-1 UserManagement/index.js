@@ -11,7 +11,6 @@ app.use(express.json())
 app.use('/user',userRouter)
 app.use('/product',productRouter)
 
-
 app.get('/',(req,res)=>{
   res.send("Welcome to home route")
 })
